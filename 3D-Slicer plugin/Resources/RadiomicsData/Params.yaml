@@ -1,0 +1,37 @@
+featureClass:
+  firstorder: []
+  glcm:
+  - Autocorrelation
+  - JointAverage
+  - ClusterProminence
+  - ClusterShade
+  - ClusterTendency
+  - Contrast
+  - Correlation
+  - DifferenceAverage
+  - DifferenceEntropy
+  - DifferenceVariance
+  - JointEnergy
+  - JointEntropy
+  - Imc1
+  - Imc2
+  - Idm
+  - Idmn
+  - Id
+  - Idn
+  - InverseVariance
+  - MaximumProbability
+  - SumEntropy
+  - SumSquares
+  gldm: null
+  glrlm: null
+  glszm: null
+  ngtdm: null
+  shape: null
+imageType:
+  Original: {}
+setting:
+  binWidth: 398
+  interpolator: sitkBSpline
+  resampledPixelSpacing: null
+  weightingNorm: null
