@@ -5,7 +5,7 @@
 <p align="justify">The description includes: the name of the file, a brief description of the geometry and an image extracted from the digital 3D file. With this information, any user can replicate each part and can guide you in its assembly.</p>
 
 The list of files for the 3D-printed phantom is as follows:
-- Assembly1
+- Assembly (not attached due to heavy file weight, please contact for request)
 - PHANTOM_CENTRAL COVER
 - PHANTOM_FRONT COVER
 - PHANTOM_ BACK COVER
