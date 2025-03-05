@@ -109,7 +109,7 @@ A specific folder organisation is required for the code to work (Figure 3). The 
 <p align="justify">Once the folder is selected, we run the code, which goes through the folders of the different dates with the pairs of PET/CT or PET/MR images.</p>
 <p align="justify">The anaylisis <strong>OUTPUT</strong> is a png file showing the DSC value for each slice and the mean, as shown in Figure 15.</p>
 
-<div align="center"><img src="https://github.com/user-attachments/assets/7d386f67-ddd3-48bd-9583-8c527943b968" width="65%"></div>
+<div align="center"><img src="https://github.com/user-attachments/assets/f00467d8-7967-4e7f-bf7e-f04a80ffb1d5" width="65%"></div>
 <div align="center"><strong>Figure 15. Output DSC plot for all insert slices.</strong></div>
 <p>&nbsp;</p>
 
