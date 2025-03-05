@@ -6,6 +6,8 @@
 
 `pip install -r requirements.txt`
 
+<p align="justify"><em>3DPrintedPhantom-QualityAssurance/Python code</em> folder contains two subfolders. Code scripts are in <em>Code</em> subfolder, and additional required files are in <em>Required files</em> subfolder.</p>
+
 
 ## Overview
 <p align="justify">The 3D-printed phantom Quality Assurance code enables the analysis of different quality parameters of PET, CT and MR images (quantification, resolution, co-registration, distortion and radiomics) with 3D-printed phantom acquisitions.</p>
