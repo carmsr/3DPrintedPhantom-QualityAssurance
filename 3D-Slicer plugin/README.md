@@ -1,4 +1,4 @@
-# 3D-printed phantom Quality Assurance: 3D-Slicer Plugin
+# 3D-printed phantom Quality Assurance: QAHybrid Plugin
 @Authors: __Tobias Fechter__, __Carmen Salvador Ribés__ and __Montserrat Carles Fariña__
 
 <div align="center"><img src="https://github.com/user-attachments/assets/36e86fcb-5353-4b82-81da-0bf4d38d1def" width="45%"></div>
