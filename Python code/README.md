@@ -182,8 +182,6 @@ A specific folder organisation is required for the code to work (Figure 3). The 
 <p>&nbsp;</p>
 
 <p align="justify">The analysis <strong>OUTPUT</strong> is an excel document for each image with radiomic features in each segmentation.</p>
-
-<p>&nbsp;</p>
 <p>&nbsp;</p>
 
 **Contact:** <carmen_salvador@iislafe.es>
