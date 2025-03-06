@@ -1,4 +1,4 @@
-## STL models of 3D-printed phantom
+## 3D-printed phantom Quality Assurance: STL phantom models
 
 <p align="justify">The files of the 3D-printed phantom printing models are detailed below. These files are in STL format (which can be printed in any recommended printing system, in this case either FDM or FFF through filament, or SLA or DLP through resins).</p>
 
