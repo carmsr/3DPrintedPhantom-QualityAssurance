@@ -13,6 +13,6 @@
 <div align="center"><img src="https://github.com/user-attachments/assets/bee5582b-4ed0-4aa2-8a84-0859a2365191" width="85%"></div>
 
 <p align="justify">4. The ‘QAHybrid’ module will appear in the ‘Quantification’ category.</p>
-<div align="center"><img src="https://github.com/user-attachments/assets/1dc8c46b-4c1e-4ec3-9ba3-8c0e12932279" width="85%"></div>
+<div align="center"><img src="https://github.com/user-attachments/assets/1dc8c46b-4c1e-4ec3-9ba3-8c0e12932279" width="55%"></div>
 
-## General notes
+## 
