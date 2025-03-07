@@ -10,6 +10,3 @@ Carmen Salvador Ribés carmen_salvador@iislafe.es
 
 ## History
 Version 1.0: March 2025
-
-## Citation
-Please cite the following paper if you use this work for your research:
