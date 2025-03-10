@@ -27,12 +27,14 @@
 
 ### Quantification analysis
 1. In the ‘Inputs’ section, select the analysis type ‘Quantification’ under ‘Analysis-Type’. The quantification section will open automatically, and the parameters that still need to be specified in order to start the analysis will appear in red.
-<div align="center"><img src="https://github.com/user-attachments/assets/8c0453e8-0703-439a-a8f8-c08dff4745f3" width="45%"></div>
+<div align="center"><img src="https://github.com/user-attachments/assets/b799e0f0-67fd-41e3-b03f-5e8c9e527fbd" width="45%"></div>
+
 2. The first step is the determination of the initial axial slice for the analysis.
 
    - For **CT and PET imaging**, it can be determined automatically by means of the ‘detect’ button and also manually. It is recommended to check and adjust (if necessary) the results of the automatic detection to ensure correct analysis.
    - For **MR imaging**, it is manual only.
-<div align="center"><img src="https://github.com/user-attachments/assets/1bfebd9b-5fbc-4f5b-a47a-9cd19cfaf273" width="45%"></div>
+<div align="center"><img src="https://github.com/user-attachments/assets/cc6008f8-d3b6-4298-835b-503b6dc83f1f" width="45%"></div>
+
 
 3. For <strong>PET quantification</strong>, the parameters are entered manually:
     - Volume of radioactive solution (in mL)
@@ -40,10 +42,10 @@
     - Half-life of the radiotracer (in s)
     - Initial activity of the radioactive solution (in Bq)
     - Time of measurement of the initial activity (in HHMMSS format)
-<div align="center"><img src="https://github.com/user-attachments/assets/4cca9305-2306-4ba4-a453-f2c4bce93bb7" width="45%"></div>
+<div align="center"><img src="https://github.com/user-attachments/assets/6b1b263d-8eb8-486a-9be9-3db30b468434" width="45%"></div>
 
 4. For <strong>CT and MR quantification</strong>, ‘Select Insert Type’ selects the insert types used: for calibration curve (for CT imaging only) and for material characterisation (for MR or CT imaging). Within each option, the insert arrangement can be specified/modified.
-<div align="center"><img src="https://github.com/user-attachments/assets/1c6ab626-426a-4c63-9711-c01c5cef1c9e" width="45%"></div>
+<div align="center"><img src="https://github.com/user-attachments/assets/16e4a41a-78ec-41bf-ab42-c904134a70f8" width="45%"></div>
 
 5. Once all the necessary parameters have been determined/entered, click on the ‘Apply’ button. The analysis will be carried out automatically and the outputs will be obtained. For each image: table with quantification information. For PET image, figure with activity concentration RC values. For CT image, figure with calibration curve. The figures will be automatically saved in the directory initially specified, while the tables will be displayed in the 3D-Slicer interface and can be saved in different formats.
 
