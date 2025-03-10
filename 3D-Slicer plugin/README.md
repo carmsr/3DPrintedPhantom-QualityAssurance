@@ -1,7 +1,7 @@
 # 3D-printed phantom Quality Assurance: QAHybrid Plugin
 @Authors: __Tobias Fechter__, __Carmen Salvador Ribés__ and __Montserrat Carles Fariña__
 
-<div align="center"><img src="https://github.com/user-attachments/assets/36e86fcb-5353-4b82-81da-0bf4d38d1def" width="45%"></div>
+<div align="center"><img src="https://github.com/user-attachments/assets/9bfa87e8-1db7-4e1d-a007-9722f5b90203" width="45%"></div>
 
 ## First steps
 <p align="justify">The <strong>QAHybrid</strong> plugin was validated in 3D-Slicer version 5.6.2. To install it:</p>
