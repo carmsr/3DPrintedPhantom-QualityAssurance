@@ -74,8 +74,8 @@
 2. Automatic detection of the initial and final axial slices of distortion cylinder and central axial slice of panal (all modalities), and automatic generation of panal wall points (MR imaging only) by means of the ‘detect’ button.
 <div align="center"><img src="https://github.com/user-attachments/assets/bbdb6e19-1c08-4336-a2dc-9eb26f372487" width="45%"></div>
 
-3. For MR images, once the panal wall points have been generated, it is recommended to check and adjust manually. The panal walls points generated for two directons for MR T1 image are shown below.
-<div align="center"><img src="https://github.com/user-attachments/assets/97ba052d-51d9-4d81-8388-651438790ed7" width="5%"></div>
+3. For MR images, once the panal wall points have been generated, it is recommended to check and adjust manually. The panal walls points generated for two directons (Diagonal-Up-Left and Diagonal-Down-Right) for MR T1 image are shown below.
+<div align="center"><img src="https://github.com/user-attachments/assets/97ba052d-51d9-4d81-8388-651438790ed7" width="25%"></div>
 
 4. Click on the ‘Apply’ button. The analysis will be carried out automatically and the outputs will be obtained. Figures and tables with distortion evaluation will be generated. The figures will be automatically saved in the directory initially specified, while the tables will be displayed in the 3D-Slicer interface and can be saved in different formats.
 
