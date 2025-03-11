@@ -4,7 +4,7 @@
 <div align="center"><img src="https://github.com/user-attachments/assets/9bfa87e8-1db7-4e1d-a007-9722f5b90203" width="45%"></div>
 
 ## First steps
-<p align="justify">The <strong>QAHybrid</strong> plugin was validated in 3D-Slicer version 5.6.2. To install it:</p>
+<p align="justify">The <strong>QAHybrid</strong> plugin was validated in 3D-Slicer version 5.8.1. To install it:</p>
 <p align="justify">1. Download the plugin folder <a href="https://github.com/carmsr/3DPrintedPhantom-QualityAssurance/tree/main/3D-Slicer%20plugin/QAHybrid" target="_blank"> <em>3DPrintedPhantom-QualityAssurance/3D-Slicer plugin/QAHybrid</em></a>.</p>
 <p align="justify">2. Open the 3D-Slicer program, and go to the menu ‘Edit - Application Settings’.</p>
 <div align="center"><img src="https://github.com/user-attachments/assets/9c71d87b-483c-40db-954c-bee3507c6d3e" width="35%"></div>
@@ -83,10 +83,10 @@
 1. In the ‘Inputs’ section, select the analysis type ‘Radiomics’ under ‘Analysis-Type’. The radiomics section will open automatically, and the parameters that still need to be specified in order to start the analysis will appear in red.
 <div align="center"><img src="https://github.com/user-attachments/assets/70229686-c657-4c4c-b51e-77715bdfe585" width="45%"></div>
 
-2. The segmentations in which the analysis is to be carried out can be provided. Otherwise, the reference segmentations contained in the software shall be used, adapting them to the analysis image space.
+2. For each image, the regions in which the radiomic feature analysis will be carried out will be provided. It will be a single segmentation generated in 3D-Slicer with different labels corresponding to each region. If not provided, the reference segmentations contained in the software will automatically be used and adapted to the analysis image space through a registration process.
 <div align="center"><img src="https://github.com/user-attachments/assets/8182eb84-ab87-4058-b2a7-e3b8dd8a9e08" width="45%"></div>
 
-3. Click on the ‘Apply’ button. The analysis will be carried out automatically and the outputs will be obtained. For each image, a table with the radiomics features in each segmentation. The table could be saved in different formats.
+3. Click on the ‘Apply’ button. The analysis will be carried out automatically and the results will be obtained. For each image, a table will be generated with the radiomic features obtained in each segmentation. The table can be saved in different formats. In case the segmentation has not been provided, it will also be generated from the reference one.
 <p>&nbsp;</p>
 
 **Contact**: <carmen_salvador@iislafe.es>
