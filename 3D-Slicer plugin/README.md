@@ -15,6 +15,7 @@
 <p align="justify">4. The ‘QAHybrid’ module will appear in the ‘Quantification’ category.</p>
 <div align="center"><img src="https://github.com/user-attachments/assets/1dc8c46b-4c1e-4ec3-9ba3-8c0e12932279" width="55%"></div>
 
+<br><br>
 > ⚠️ **Note:** If you are connected through a proxy, the required Python packages for the plugin may not be installed automatically. In that case, you can install them manually using 3D-Slicer's Python console. For example, to install the `mahotas` library, run:
 >
 > ```python
