@@ -363,7 +363,7 @@ def main_code():
                     for file_name in pet_file_names:
                         file_path = os.path.join(pet_image_path, file_name)
                         ds = pydicom.filereader.dcmread(file_path)
-                        time_pet = ds["AcquisitionTime"].value
+                        time_pet = ds["SeriesTime"].value
                         acquisition_time_pet = time_pet.split(".")[0]
 
                         if min_acquisition_time is None or acquisition_time_pet < min_acquisition_time:
@@ -371,7 +371,7 @@ def main_code():
                             min_acquisition_time_file = file_path
 
                     ds = pydicom.filereader.dcmread(min_acquisition_time_file)
-                    time_pet = ds["AcquisitionTime"].value
+                    time_pet = ds["SeriesTime"].value
                     acquisition_time_pet = time_pet.split(".")[0]
 
                     # Convert to NIFTI format
@@ -652,3 +652,4 @@ lbl1.grid(row=0, column=3)
 tk.Button(window, text='Run', command=main_code).grid(row=1, column=2, sticky=tk.W, pady=4)
 
 tk.mainloop()
+
