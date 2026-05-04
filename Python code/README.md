@@ -43,7 +43,7 @@ A specific folder organisation is required for the code to work (Figure 3). The 
 <div align="center"><strong>Figure 5. Initial window of Quantification analysis.</strong></div>
 <p>&nbsp;</p>
 
-<p align="justify">Within the folder of each measurement, the code goes through each image (PET, CT or MR) and a window where we can visualise the different slices of the image appears (Figure 6). We choose the initial slice where the 7 active inserts (not density inserts, which are the four central inserts) start to be seen by pressing "enter" on the keyboard / "Select" button and then closing the window. Thus, the initial slice of the image analysis region will have been chosen. </p>
+<p align="justify">Within the folder of each measurement, the code goes through each image (PET, CT or MR) and a window where we can visualise the different slices of the image appears. We choose the initial slice where the 7 active inserts (not density inserts, which are the four central inserts) start to be seen by pressing "enter" on the keyboard / "Select" button and then closing the window. Thus, the initial slice of the image analysis region will have been chosen. </p>
 
 - <p align="justify">If a <strong>CT or MR image</strong> folder is found, it asks us which solid inserts were used (for Calibration Curve or for Materials Characterization).</p>
 
