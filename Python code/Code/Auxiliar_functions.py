@@ -1282,14 +1282,9 @@ def resol_mr_t1(im, coord, vertices, output, voxeldim):
 # PET threshold to select the co-registration tube (only)
 def pet_th(im, voxeldim):
     image = sitk.GetArrayFromImage(im)
-    max_value = np.nanmax(image[6:, :, :])                      # max intensity value
+    max_value = np.nanmax(image[35:, :, :])                     # max intensity value
     max_value70 = np.nanmean(image[image >= 0.7 * max_value])   # mean of the voxels with value >= 0.7max_value
     th40 = 0.4 * max_value70                                    # 40% of the max_value70
-
-    # Rescale error
-    # min_value = np.nanmin(image[6:, :, :])
-    # vtotal = max_value + abs(min_value)
-    # th40 = 0.4 * vtotal - abs(min_value)
 
     # Create the segmentation
     thresh = np.where((image >= th40), 1, 0)
